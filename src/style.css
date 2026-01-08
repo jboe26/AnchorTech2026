@@ -193,7 +193,7 @@ header nav ul li a i {
 }
 
 .hero-content h1 {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 10px;
 }
 
@@ -277,115 +277,144 @@ h4 {
     padding: 60px 20px;
     max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  /* Intro */
-  .services-intro {
+}
+
+/* Intro */
+.services-intro {
     text-align: center;
     margin-bottom: 50px;
-  }
-  
-  .services-intro h1 {
+}
+
+.services-intro h1 {
     font-size: 2rem;
     color: #3A6A96;
     margin-bottom: 10px;
-  }
-  
-  .services-tagline {
+}
+
+.services-tagline {
     font-size: 1.2rem;
     font-weight: 500;
     color: #3A6A96;
-    margin-bottom: 10px;
-  }
-  
-  .services-note {
-    font-weight: bold;
-    color: #444;
-  }
-  
-  /* Package Grid */
-  .package-grid {
+}
+
+/* Package Grid */
+.package-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-  }
-  
-  /* Package Card */
-  .package-card {
+}
+
+/* Package Card */
+.package-card {
     background-color: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     padding: 25px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-  
-  .package-card:hover {
+}
+
+.package-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
-  }
-  
-  .package-title {
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.package-title {
     font-size: 1.4rem;
     color: #3A6A96;
     margin-bottom: 5px;
-  }
-  
-  .package-subtitle {
+}
+
+.package-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3A6A96;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.package-subtitle {
     font-size: 1rem;
     color: #666;
     margin-bottom: 15px;
-  }
-  
-  .package-description {
+    font-weight: 700;
+    text-align: center;
+}
+
+.package-description {
     font-size: 0.95rem;
     color: #000;
     margin-bottom: 15px;
-  }
-  
-  .package-features {
+    text-align: center;
+}
+
+.package-features {
     padding-left: 1.2rem;
-    margin-bottom: 10px;
-  }
-  
-  .package-features li {
+}
+
+.package-features li {
     margin-bottom: 6px;
     font-size: 0.95rem;
     color: #000;
-  }
-  
-  /* No-Charge Philosophy Section */
-  .not-charging-section {
+}
+
+/* CTA */
+.services-cta {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3A6A96;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .package-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* No-Charge Philosophy Section */
+.not-charging-section {
     background-color: #ffffff;
     border: 1px solid #ddd;
     padding: 40px;
     border-radius: 10px;
     margin-top: 60px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-  }
-  
-  .not-charging-section h2 {
+}
+
+.not-charging-section h2 {
     font-size: 1.6rem;
     margin-bottom: 20px;
     color: #3A6A96;
-  }
-  
-  .not-charging-section p {
+}
+
+.not-charging-section p {
     font-size: 1rem;
     color: #000;
     margin-bottom: 15px;
-  }
-  
-  .charging-note {
+}
+
+.charging-note {
     font-weight: bold;
     color: #444;
     margin-top: 20px;
-  }
-  
+}
+
 
 /* Video Container */
 .video-container {

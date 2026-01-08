@@ -3,53 +3,61 @@ import "../style.css";
 
 const packageData = [
   {
-    title: "Launch",
-    subtitle: "For solo founders and new businesses",
-    description: "Get online with clarity and confidence. We’ll handle the tech so you can focus on your mission.",
+    title: "Anchor Foundation",
+    price: "$149",
+    subtitle: "For businesses getting started",
+    description:
+      "A simple, intentional website to help new businesses establish their identity online.",
     features: [
-      "Custom 3-page website",
-      "Foundational branding",
-      "Basic SEO setup",
-      "1-month support included"
+      "Custom 3‑page website",
+      "Basic branding setup",
+      "Starter SEO",
+      "1‑month support included"
     ]
   },
   {
-    title: "Thrive",
-    subtitle: "For growing teams and expanding reach",
-    description: "Strengthen your brand and connect with your audience. No fluff—just what works.",
+    title: "Anchor Growth",
+    price: "$299",
+    subtitle: "For businesses strengthening their identity",
+    description:
+      "A stronger online presence with more pages, refined branding, and tools to help you grow.",
     features: [
-      "Includes Launch features",
-      "Expanded 5-page website",
-      "Refined branding strategy",
-      "SEO + social media setup (1 platform)",
-      "3-month support included"
+      "Includes Anchor Foundation features",
+      "Expanded 5‑page website",
+      "Branding refinement",
+      "Social media setup (1 platform)",
+      "2‑month support included"
     ]
   },
   {
-    title: "Elevate",
-    subtitle: "For established businesses ready to scale",
-    description: "Build a digital presence that reflects your full vision. We’re here every step of the way.",
+    title: "Anchor Elevate",
+    price: "$499",
+    subtitle: "For businesses stepping into their full potential",
+    description:
+      "A more customized, strategic build with marketing tools and analytics to support real growth.",
     features: [
-      "Includes Thrive features",
-      "Fully customized 10-page website",
+      "Includes Anchor Growth features",
+      "Fully customized 8‑10 page website",
       "Email marketing setup",
-      "Multi-platform social media strategy",
-      "Website performance analytics",
-      "6-month support included"
+      "Multi‑platform social media strategy",
+      "Website analytics dashboard",
+      "4‑month support included"
     ]
   },
   {
-    title: "Legacy",
-    subtitle: "For leaders building long-term impact",
-    description: "Full-service support with advanced tools and strategy. No gimmicks—just real partnership.",
+    title: "Anchor Alliance",
+    price: "$799+",
+    subtitle: "For long‑term partnership and ongoing support",
+    description:
+      "Full‑service support, strategy, and improvements. A true partnership built on trust and clarity.",
     features: [
-      "Includes Elevate features",
-      "Unlimited page design with advanced customization",
-      "Comprehensive marketing suite with analytics insights",
-      "Client portal for streamlined business management",
-      "Competitor analysis & custom SEO strategy",
-      "Training materials & resources",
-      "12-month support included"
+      "Includes Anchor Elevate features",
+      "Unlimited page updates",
+      "Full marketing suite + analytics",
+      "Client portal setup",
+      "Competitor analysis + SEO strategy",
+      "Training materials",
+      "12‑month support included"
     ]
   }
 ];
@@ -57,22 +65,18 @@ const packageData = [
 const Services = () => {
   return (
     <div className="services-page">
-      {/* Intro */}
       <div className="services-intro">
         <h1>Service Packages</h1>
         <p className="services-tagline">
           Clear, scalable solutions for small businesses. No gimmicks. No bull.
         </p>
-        <p className="services-note">
-
-        </p>
       </div>
 
-      {/* Packages */}
       <div className="package-grid">
         {packageData.map((pkg, idx) => (
           <div key={idx} className="package-card">
             <h2 className="package-title">{pkg.title}</h2>
+            <p className="package-price">{pkg.price}</p>
             <h5 className="package-subtitle">{pkg.subtitle}</h5>
             <p className="package-description">{pkg.description}</p>
             <ul className="package-features">
@@ -82,6 +86,13 @@ const Services = () => {
             </ul>
           </div>
         ))}
+      </div>
+
+      <div className="services-cta">
+        <p>Not sure which package fits your business?</p>
+        <a href="/contact" className="cta-button">
+          Let’s Talk
+        </a>
       </div>
     </div>
   );

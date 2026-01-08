@@ -1,0 +1,539 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4e4e4;
+    color: #000;
+}
+
+main {
+    background-color: #e4e4e4;
+}
+
+div.app {
+    background-color: #e4e4e4;
+}
+
+div.container {
+    background-color: #e4e4e4;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Hero Section */
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 80%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 2em;
+}
+
+.hero.homepage {
+    background-color: #3A6A96;
+    /* Restore blue background */
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero.homepage .hero-content h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.hero.homepage .hero-content p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/* CTA button */
+
+.cta-button {
+    background: #3A6A96;
+    border: 2px solid #000;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #71797E;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.cta-button:active {
+    background: linear-gradient(135deg, #222, #111);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(2px);
+}
+
+/* Header & Nav Styles */
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #000;
+}
+
+header,
+html {
+    background-color: #3A6A96;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+header nav ul li a i {
+    margin-right: 8px;
+    color: #fff;
+}
+
+/* CTA button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.cta-button {
+    background: #3A6A96;
+    border: 2px solid #000;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #71797E;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.cta-button:active {
+    background: linear-gradient(135deg, #222, #111);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(2px);
+}
+
+/* About Page Styles */
+/* About Page */
+.about-page {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #3A6A96;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+}
+
+/* Introduction Section */
+.intro {
+    padding: 30px;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Mission & Vision */
+.values {
+    padding: 40px;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.values h2 {
+    margin-top: 30px;
+    color: #3A6A96;
+}
+
+.values p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+
+/* Main Styles */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #000;
+    text-align: center;
+}
+
+main section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000;
+    text-align: center;
+}
+
+main section p {
+    text-align: center;
+}
+
+main section ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+main section ul li {
+    margin: 10px 0;
+}
+
+h4 {
+    text-align: center;
+}
+
+/* Services Section */
+.services-page {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Intro */
+  .services-intro {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .services-intro h1 {
+    font-size: 2rem;
+    color: #3A6A96;
+    margin-bottom: 10px;
+  }
+  
+  .services-tagline {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #3A6A96;
+    margin-bottom: 10px;
+  }
+  
+  .services-note {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  /* Package Grid */
+  .package-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  /* Package Card */
+  .package-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .package-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+  }
+  
+  .package-title {
+    font-size: 1.4rem;
+    color: #3A6A96;
+    margin-bottom: 5px;
+  }
+  
+  .package-subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .package-description {
+    font-size: 0.95rem;
+    color: #000;
+    margin-bottom: 15px;
+  }
+  
+  .package-features {
+    padding-left: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .package-features li {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+    color: #000;
+  }
+  
+  /* No-Charge Philosophy Section */
+  .not-charging-section {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 60px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .not-charging-section h2 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #3A6A96;
+  }
+  
+  .not-charging-section p {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 15px;
+  }
+  
+  .charging-note {
+    font-weight: bold;
+    color: #444;
+    margin-top: 20px;
+  }
+  
+
+/* Video Container */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+#checkout {
+    color: #fff;
+    text-align: center;
+}
+
+.me {
+    text-align: center;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+/* Contact Section */
+
+.contact-description {
+    color: #000;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    /* Keep this if you want the form on the left and contact info on the right */
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #e4e4e4;
+}
+
+.logo-and-contact-details {
+    /* New class for the combined logo and contact info */
+    display: flex;
+    flex-direction: column;
+    /* Stacks the logo above the contact info */
+    align-items: center;
+    /* Centers the logo and contact info horizontally within this column */
+    width: 45%;
+    /* Assign the width that was previously on .contact-info */
+    padding: 20px;
+    /* Keep padding for the overall section */
+    border-radius: 5px;
+    /* Keep border-radius for the overall section */
+    font-size: 16px;
+    /* Keep font-size for the overall section */
+    background-color: #e4e4e4;
+}
+
+.contact-info {
+    /* Remove width, padding, border-radius, font-size from here */
+    /* These styles are now handled by .logo-and-contact-details */
+    padding: 0;
+    /* Remove padding if you don't want extra space within the contact-info itself */
+    text-align: center;
+    /* Center the text within contact info if desired */
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+    /* Provides space between the logo and "Get in Touch" */
+}
+
+.anchortech-logo {
+    max-width: 250px;
+    height: auto;
+    background-color: #e4e4e4;
+}
+
+
+/* LINK STYLES */
+
+.companion-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.companion-link:hover {
+    color: #fff;
+    /* Change color on hover */
+    text-decoration: none;
+    /* Adds an underline effect */
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header nav ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .cta-button {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    table th,
+    table td {
+        padding: 8px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    form input,
+    form select,
+    form textarea {
+        padding: 8px;
+    }
+}

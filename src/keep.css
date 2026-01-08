@@ -1,0 +1,139 @@
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    /* Ensures that the table respects the column widths */
+    margin: 20px 0;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+ul {
+    list-style-type: none;
+}
+
+th {
+    background-color: #3A6A96;
+    color: white;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+    width: 10%;
+    /* Adjust this percentage to make the column width smaller */
+    text-align: center;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 10%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 10%;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    width: 20%;
+    /* This column will take up the remaining width */
+}
+
+.price {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    background: #f4f4f4;
+    color: #3A6A96;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+.services-container {
+    display: flex;
+    /* Enables side-by-side layout */
+    flex-wrap: wrap;
+    /* Ensures responsiveness */
+    justify-content: space-between;
+    /* Spaces out the sections */
+    gap: 20px;
+    /* Creates breathing room between sections */
+}
+
+.service {
+    width: 30%;
+    /* Adjusts width for balance */
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 30%;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Packages Section (Fixing Layout) */
+.package-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Makes packages align in rows */
+    gap: 20px;
+    text-align: center;
+}
+
+.package {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.package h3 {
+    color: #3A6A96;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns layout */
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-card h3 {
+    color: #3A6A96;
+}

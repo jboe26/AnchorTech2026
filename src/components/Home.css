@@ -1,0 +1,43 @@
+/* Home Page Hero Section */
+.hero-home {
+    background-color: #e4e4e4; /* Solid background color */
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Adds space between elements */
+}
+
+.hero-home img {
+    width: 280px; /* Balanced size */
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-home h2 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.hero-home h3 {
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.9; /* Subtle contrast */
+    color: #000;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .hero-home {
+        padding: 50px 15px;
+    }
+    .hero-home h2 {
+        font-size: 32px;
+    }
+    .hero-home h3 {
+        font-size: 18px;
+    }
+}

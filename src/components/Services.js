@@ -7,12 +7,12 @@ const packageData = [
     price: "$149",
     subtitle: "For businesses getting started",
     description:
-      "A simple, intentional website to help new businesses establish their identity online.",
+      "A clean, simple WordPress build that gives new businesses a solid, editable foundation online.",
     features: [
-      "Custom 3‑page website",
-      "Basic branding setup",
-      "Starter SEO",
-      "1‑month support included"
+      "Custom 3‑page WordPress site",
+      "Built with Divi for easy editing",
+      "Starter SEO setup",
+      "1‑month support + training"
     ]
   },
   {
@@ -20,13 +20,13 @@ const packageData = [
     price: "$299",
     subtitle: "For businesses strengthening their identity",
     description:
-      "A stronger online presence with more pages, refined branding, and tools to help you grow.",
+      "A more complete WordPress presence with additional pages, refined structure, and tools to help you grow confidently.",
     features: [
       "Includes Anchor Foundation features",
-      "Expanded 5‑page website",
-      "Branding refinement",
-      "Social media setup (1 platform)",
-      "2‑month support included"
+      "Expanded 5‑page WordPress site",
+      "Branding + layout refinement",
+      "Contact form + basic automations",
+      "2‑month support + training"
     ]
   },
   {
@@ -34,13 +34,13 @@ const packageData = [
     price: "$499",
     subtitle: "For businesses stepping into their full potential",
     description:
-      "A more customized, strategic build with marketing tools and analytics to support real growth.",
+      "A fully customized WordPress build with strategic structure, marketing tools, and analytics to support real growth.",
     features: [
       "Includes Anchor Growth features",
-      "Fully customized 8‑10 page website",
-      "Email marketing setup",
-      "Multi‑platform social media strategy",
-      "Website analytics dashboard",
+      "Fully customized 8–10 page WordPress site",
+      "Divi Theme Builder templates",
+      "Email marketing integration",
+      "Analytics dashboard + insights",
       "4‑month support included"
     ]
   },
@@ -49,13 +49,13 @@ const packageData = [
     price: "$799+",
     subtitle: "For long‑term partnership and ongoing support",
     description:
-      "Full‑service support, strategy, and improvements. A true partnership built on trust and clarity.",
+      "Ongoing WordPress care, updates, and strategy. A long‑term partnership built on clarity, trust, and continuous improvement.",
     features: [
       "Includes Anchor Elevate features",
       "Unlimited page updates",
-      "Full marketing suite + analytics",
-      "Client portal setup",
-      "Competitor analysis + SEO strategy",
+      "Monthly maintenance + backups",
+      "SEO improvements + competitor insights",
+      "Client portal access",
       "Training materials",
       "12‑month support included"
     ]

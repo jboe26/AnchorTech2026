@@ -1,7 +1,7 @@
 /* Footer Styles */
 .simple-footer-container {
     background-color: #3A6A96;
-    color: #000; 
+    color: #000;
     text-align: center;
     padding: 20px;
     font-family: 'Arial', sans-serif;
@@ -18,9 +18,10 @@
 }
 
 /* Footer Links */
-.footer-link, p {
+.footer-link,
+p {
     text-decoration: none;
-    color: #fff; 
+    color: #fff;
 }
 
 /* Separator */
@@ -35,14 +36,17 @@
         padding: 15px 10px;
         font-size: 0.85em;
     }
+
     .footer-content {
         flex-direction: column;
         align-items: center;
     }
+
     .footer-link {
         display: block;
         margin: 5px 0;
     }
+
     .separator {
         display: none;
     }

@@ -4,7 +4,7 @@ import "../style.css";
 const packageData = [
   {
     title: "Anchor Foundation",
-    price: "$149",
+    price: "$99",
     subtitle: "For businesses getting started",
     description:
       "A clean, intentional website that gives your business a solid, editable foundation online — built on the platform that fits you best.",
@@ -18,7 +18,7 @@ const packageData = [
   },
   {
     title: "Anchor Growth",
-    price: "$299",
+    price: "$199",
     subtitle: "For businesses strengthening their identity",
     description:
       "A more complete online presence with refined structure, better flow, and tools that help you grow confidently.",
@@ -33,7 +33,7 @@ const packageData = [
   },
   {
     title: "Anchor Elevate",
-    price: "$499",
+    price: "$349",
     subtitle: "For businesses stepping into their full potential",
     description:
       "A fully customized website with strategic structure, marketing tools, and analytics to support real growth.",
@@ -49,7 +49,7 @@ const packageData = [
   },
   {
     title: "Anchor Alliance",
-    price: "$799+",
+    price: "$499",
     subtitle: "For long‑term partnership and ongoing support",
     description:
       "Ongoing website care, updates, and strategy — a long‑term partnership built on clarity, trust, and continuous improvement.",

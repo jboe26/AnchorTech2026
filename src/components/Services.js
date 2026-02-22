@@ -49,7 +49,7 @@ const packageData = [
   },
   {
     title: "Anchor Alliance",
-    price: "$499",
+    price: "$449",
     subtitle: "For long‑term partnership and ongoing support",
     description:
       "Ongoing website care, updates, and strategy — a long‑term partnership built on clarity, trust, and continuous improvement.",

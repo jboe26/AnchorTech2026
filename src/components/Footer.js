@@ -2,7 +2,7 @@ import React from 'react';
 import '../components/Footer.css';
 
 const Footer = () => {
-    const contactEmail = "contact@anchortech.org";
+    const contactEmail = "joshboepple@anchortech.org";
     const currentYear = new Date().getFullYear();
 
     return (

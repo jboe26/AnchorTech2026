@@ -520,6 +520,82 @@ h4 {
     /* Adds an underline effect */
 }
 
+/* AnchorCare Support Section */
+.support-section {
+    margin-top: 60px;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    text-align: center;
+}
+
+.support-section h2 {
+    font-size: 1.8rem;
+    color: #3A6A96;
+    margin-bottom: 10px;
+}
+
+.support-description {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+/* Support Grid */
+.support-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+/* Support Card */
+.support-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.support-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.support-name {
+    font-size: 1.3rem;
+    color: #3A6A96;
+    margin-bottom: 5px;
+}
+
+.support-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #3A6A96;
+    margin-bottom: 15px;
+}
+
+.support-features {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.support-features li {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+    color: #000;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .support-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {

@@ -143,7 +143,7 @@ const Services = () => {
       </div>
 
       <div className="services-cta">
-        <p>Not sure which package fits your business?</p>
+        <p className='notsure'>Not sure which package fits your business?</p>
         <a href="/contact" className="cta-button">
           Let’s Talk
         </a>

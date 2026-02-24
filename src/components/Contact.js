@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import anchortechLogo from '../assets/logo2.png';
+import { useState } from 'react';
+import anchortechLogo from '../assets/Logo White.jpg';
 import '../style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -17,7 +17,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const recipient = 'contact@anchortech.org';
+    const recipient = 'joshboepple@anchortech.org';
     const { name, email, message } = formData;
 
     if (!name || !email || !message) {
@@ -57,7 +57,7 @@ const Contact = () => {
           <>
             Your email draft has been prepared. Please check your email application (it may be in a new window or tab).
             If the draft does not open, you can email us directly at{' '}
-            <a href="mailto:contact@anchortech.org">contact@anchortech.org</a>.
+            <a href="mailto:joshboepple@anchortech.org">joshboepple @anchortech.org</a>.
           </>
         )
       });
@@ -68,10 +68,11 @@ const Contact = () => {
   return (
     <section className="contact-section py-5" style={{ backgroundColor: '#e4e4e4' }}>
       <div className="container">
-        <div className="row justify-content-center align-items-start">
 
-          {/* Left: Contact Form */}
-          <div className="col-md-6 mb-4">
+        <div className="row justify-content-center">
+
+          {/* LEFT COLUMN — FORM */}
+          <div className="col-lg-6 col-md-7 mb-4">
             <h2 className="mb-3">Start the Conversation</h2>
             <p className="contact-description">
               Every project starts with a simple conversation. Share a bit about your business, and we’ll explore how to
@@ -162,9 +163,10 @@ const Contact = () => {
             </form>
           </div>
 
-          {/* Right: Contact Info / Founder Card */}
-          <div className="col-md-5 offset-md-1">
-            <div className="contact-card p-3 p-md-4 bg-white rounded shadow-sm">
+          {/* RIGHT COLUMN — CONTACT CARD + CALENDLY */}
+          <div className="col-lg-5 col-md-7">
+
+            <div className="contact-card p-3 p-md-4 bg-white rounded shadow-sm mb-4">
               <div className="text-center mb-3">
                 <img
                   src={anchortechLogo}
@@ -180,13 +182,17 @@ const Contact = () => {
 
               <h5 className="mb-2">Contact Details</h5>
               <p className="contact-description mb-1">
-                <strong>Phone:</strong> <a href="tel:+18033310716">803-331-0716</a>
+                {/* <strong>Phone:</strong> <a href="tel:+18033310716">803-331-0716</a> */}
               </p>
               <p className="contact-description mb-1">
-                <strong>Email:</strong> <a href="mailto:contact@anchortech.org">contact@anchortech.org</a>
+                <strong>Email:</strong> <a href="mailto:joshboepple@anchortech.org">joshboepple@anchortech.org</a>
               </p>
+              <br />
               <p className="contact-description mb-1">
-                <strong>Business Hours:</strong> Mon–Fri, 8 AM – 5 PM
+                <h5>Business Hours</h5>
+                Monday - Friday: 8:00 AM – 6:00 PM <br />
+                Saturday: 8:00 AM – 12:00 PM <br />
+                Sunday: Closed
               </p>
               <p className="contact-description mb-3">
                 <strong>Location:</strong> Pineville, NC
@@ -198,7 +204,7 @@ const Contact = () => {
               </p>
             </div>
 
-            <div style={{ textAlign: 'center', marginTop: '40px' }}>
+            <div className="text-center">
               <h2 style={{ color: '#3A6A96', marginBottom: '15px' }}>Schedule a Consultation</h2>
               <h5 style={{ maxWidth: '700px', margin: '0 auto 20px', fontSize: '16px' }}>
                 Book a free 30-minute strategy session to talk through your needs and explore the right next step.
@@ -220,6 +226,7 @@ const Contact = () => {
                 Book Consultation
               </a>
             </div>
+
           </div>
 
         </div>

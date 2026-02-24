@@ -68,13 +68,13 @@ const packageData = [
 
 // Ongoing support options
 const supportOptions = {
-  title: "AnchorCare Ongoing Support",
+  title: "AnchorCare™ Ongoing Support",
   description:
     "When your included support ends, you can continue with an AnchorCare plan for ongoing updates, maintenance, and peace of mind.",
   plans: [
     {
       name: "AnchorCare Monthly",
-      price: "$49/mo",
+      price: "$29/mo",
       features: [
         "Unlimited small edits (content, images, wording, tweaks)",
         "Monthly updates + backups",
@@ -84,7 +84,7 @@ const supportOptions = {
     },
     {
       name: "AnchorCare Yearly",
-      price: "$199/year",
+      price: "$149/year",
       features: [
         "Unlimited small edits",
         "Full yearly maintenance + backups",

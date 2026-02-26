@@ -369,6 +369,45 @@ h4 {
     color: #000;
 }
 
+.alacarte-section {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 40px;
+}
+
+.alacarte-section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+
+.alacarte-intro {
+    margin-bottom: 15px;
+    color: #1c1c1e;
+    text-align: center;
+}
+
+.alacarte-list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.alacarte-list li {
+    margin-bottom: 8px;
+    color: #1c1c1e;
+}
+
+.alacarte-pricing {
+    font-weight: 500;
+    color: #3A6A96;
+    /* Anchor Blue */
+}
+
+
 .cta-button {
     display: inline-block;
     margin-top: 10px;

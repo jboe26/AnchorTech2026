@@ -66,6 +66,19 @@ const packageData = [
   }
 ];
 
+const aLaCarteItems = [
+  "Device setup (phones, tablets, laptops)",
+  "Email or account troubleshooting",
+  "WiFi and network help",
+  "Smart home setup",
+  "Website edits or fixes",
+  "App or software setup",
+  "Password and security cleanup",
+  "1:1 tech lessons and training",
+  "Digital organization (files, photos, cloud)",
+  "Small business tech tune-ups"
+];
+
 // Ongoing support options
 const supportOptions = {
   title: "AnchorCare™ Ongoing Support",
@@ -121,6 +134,28 @@ const Services = () => {
           </div>
         ))}
       </div>
+
+      {/* À la carte Options */}
+      <div className="alacarte-section">
+        <h2>Custom À La Carte Tech Help</h2>
+        <p className="alacarte-intro">
+          For the moments when you just need one thing done — simple, direct, and without committing to a full package.
+        </p>
+
+        <ul className="alacarte-list">
+          {aLaCarteItems.map((item, idx) => (
+            <li key={idx}>{item}</li>
+          ))}
+        </ul>
+
+        <p className="alacarte-pricing">
+          <strong>Pricing:</strong> Most à la carte services start at $40. You’ll always receive a clear quote before any work begins.
+        </p>
+      </div>
+
+
+
+
 
       {/* AnchorCare Support Section */}
       <div className="support-section">

@@ -646,6 +646,7 @@ h4 {
     header nav ul {
         text-align: center;
         padding: 0;
+        gap: 15px;
     }
 
     header nav ul li {

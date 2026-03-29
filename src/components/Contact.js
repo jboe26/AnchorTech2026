@@ -210,7 +210,7 @@ const Contact = () => {
                 Book a free 30-minute strategy session to talk through your needs and explore the right next step.
               </h5>
               <a
-                href="https://calendly.com/contact-anchortech"
+                href="https://calendly.com/anchortechinnovations/60min"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{

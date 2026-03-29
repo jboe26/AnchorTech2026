@@ -182,7 +182,7 @@ const Contact = () => {
 
               <h5 className="mb-2">Contact Details</h5>
               <p className="contact-description mb-1">
-                <strong>Phone:</strong> <a href="tel:+19803858428">980-385-8428</a>
+                <strong>Phone:</strong> <a href="tel:+17042849528">(704) 284-9528</a>
               </p>
               <p className="contact-description mb-1">
                 <strong>Email:</strong> <a href="mailto:joshboepple@anchortech.org">joshboepple@anchortech.org</a>
